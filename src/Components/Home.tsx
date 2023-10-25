@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
 
 const Home = () => {
@@ -8,13 +8,13 @@ const Home = () => {
   const imageSrc3=require('../images/obj.png')
   return (
     <div className='container-fluid p-0'>
-      <div className="container-row m-0">
+      <div className="container">
         <img src={imageSrc1} alt="Image" className="image" />
         <div className="textStyleLarge1"><p>Bring your <br></br>ideas to life!</p></div>
         <div className="textStyleMedium1">Our team of talented and highly committed professionals<br></br> 
                                        is the key to our success in creating business solutions.</div>
       </div>
-      <div className='container-row m-0'>
+      <div className='container'>
          <img src={imageSrc2} alt="Image" className="image" />
          <div className="textStyleLarge2"><p>Our actions and motivations!</p></div>
          <div className="textStyleMedium2">Our skilled and dedicated team plays a significant role in our<br></br>  ability to
@@ -47,7 +47,7 @@ const Home = () => {
            </div>
          </div>
          </section>  */}
-      <div className="container-row m-0">
+      <div className="container">
         <img src={imageSrc3} alt="Image" className="image" />
         <div className="textStyleLarge2"><p>Check out our Projects</p></div>
         <div className="textStyleMedium3">Our endeavours serve as examples of our dedication to excellence.</div>
